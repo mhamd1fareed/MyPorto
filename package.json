@@ -13,24 +13,24 @@
     "url": "https://github.com/arifszn/gitprofile/issues"
   },
   "files": [
-    "dist/gitprofile.es.js",
-    "dist/gitprofile.umd.js",
-    "dist/style.css",
+    "build/gitprofile.es.js",
+    "build/gitprofile.umd.js",
+    "build/style.css",
     "types"
   ],
-  "main": "./dist/gitprofile.umd.js",
-  "module": "./dist/gitprofile.es.js",
+  "main": "./build/gitprofile.umd.js",
+  "module": "./build/gitprofile.es.js",
   "exports": {
     ".": {
-      "import": "./dist/gitprofile.es.js",
-      "require": "./dist/gitprofile.umd.js"
+      "import": "./build/gitprofile.es.js",
+      "require": "./build/gitprofile.umd.js"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./build/style.css": "./build/style.css"
   },
   "typings": "./types/index.d.ts",
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist",
+   "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
