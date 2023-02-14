@@ -29,8 +29,8 @@
   },
   "typings": "./types/index.d.ts",
   "scripts": {
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "predeploy": "npm run dist",
+   "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
