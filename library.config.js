@@ -17,7 +17,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/components/GitProfile.jsx'),
       name: 'GitProfile',
-      fileName: (format) => `MyPorto.${format}.js`,
+      fileName: (format) => `gitprofile.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'react-dom'],

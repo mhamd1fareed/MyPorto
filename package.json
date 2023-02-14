@@ -4,30 +4,10 @@
   "version": "2.3.0",
   "license": "MIT",
   "author": "arifszn",
+  "private": false,
   "homepage": "https://BilalYounes.github.io/MyPorto",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/arifszn/gitprofile.git"
-  },
-  "bugs": {
-    "url": "https://github.com/arifszn/gitprofile/issues"
-  },
-  "files": [
-    "dist/gitprofile.es.js",
-    "dist/gitprofile.umd.js",
-    "dist/style.css",
-    "types"
-  ],
-  "main": "./dist/gitprofile.umd.js",
-  "module": "./dist/gitprofile.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/gitprofile.es.js",
-      "require": "./dist/gitprofile.umd.js"
-    },
-    "./dist/style.css": "./dist/style.css"
-  },
-  "typings": "./types/index.d.ts",
+ 
+
   "scripts": {
     "predeploy": "npm run build",
    "deploy": "gh-pages -d dist",
@@ -64,35 +44,5 @@
     "react-icons": "^4.3.1",
     "tailwindcss": "^3.0.23",
     "vite": "^4.0.3"
-  },
-  "keywords": [
-    "git-profile",
-    "gitprofile",
-    "gitportfolio",
-    "personal-site",
-    "template",
-    "portfolio",
-    "resume",
-    "cv",
-    "personal-website",
-    "portfolio-website",
-    "portfolio-site",
-    "portfolio-template",
-    "portfolio-page",
-    "developer-portfolio",
-    "portfolio-project",
-    "github-portfolio",
-    "tailwind-portfolio",
-    "vite-portfolio",
-    "projects",
-    "open-source",
-    "git",
-    "react-portfolio",
-    "github",
-    "github-page",
-    "github-pages",
-    "github-portfolio",
-    "vite-portfolio",
-    "github-api"
-  ]
+  }
 }
