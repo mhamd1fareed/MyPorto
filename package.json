@@ -4,6 +4,7 @@
   "version": "2.3.0",
   "license": "MIT",
   "author": "arifszn",
+  "homepage": "https://BilalYounes.github.io/MyPorto",
   "repository": {
     "type": "git",
     "url": "https://github.com/arifszn/gitprofile.git"
@@ -28,6 +29,8 @@
   },
   "typings": "./types/index.d.ts",
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
