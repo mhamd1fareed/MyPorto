@@ -73,7 +73,7 @@ const config = {
     {
       title: 'NATOURS',
       description: 'Natours is a beautiful website showcasing advanced skills in Sass. The website is designed to be visually stunning and to showcase the power of Sass. The website includes several advanced features such as custom grids, responsive design, mixins, and more.',
-      imageUrl:'https://www.robertkevinphillips.com/images/portfolio/natours.jpg',
+      imageUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU144JSb4SvYCnxaZ4fBZi0bZtw3AEnepjAQ&usqp=CAU',
       link: 'https://bilalyounes.github.io/NATOURS/',
     },
     {
