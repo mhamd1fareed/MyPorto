@@ -64,12 +64,18 @@ const config = {
       institution: 'IT Engineering',
       degree: 'Damascus University',
       from: '2018',
-      to: '2014',
+      to: '2024',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
+    {
+      title: 'NATOURS',
+      description: 'Natours is a beautiful website showcasing advanced skills in Sass. The website is designed to be visually stunning and to showcase the power of Sass. The website includes several advanced features such as custom grids, responsive design, mixins, and more.',
+      imageUrl:'https://www.robertkevinphillips.com/images/portfolio/natours.jpg',
+      link: 'https://bilalyounes.github.io/NATOURS/',
+    },
     {
       title: 'Netflix Clone',
       description:
