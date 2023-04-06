@@ -5,12 +5,10 @@
   "license": "MIT",
   "author": "arifszn",
   "private": false,
-  "homepage": "https://BilalYounes.github.io/MyPorto/",
- 
-
+  "homepage": "https://mhamd1fareed.github.io/MyPorto/",
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",

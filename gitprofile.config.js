@@ -1,7 +1,7 @@
 // gitprofile.config.js
 const config = {
   github: {
-    username: 'BilalYounes', // Your GitHub org/user name. (Required)
+    username: 'mhamd1fareed', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 6, // How many projects to display.
     exclude: {
@@ -10,10 +10,10 @@ const config = {
     },
   },
   social: {
-    linkedin: 'http://www.Linkedin.com/in/bilal-younes-2a5591211',
+    linkedin: '',
     facebook: '',
-    phone: '0982431524',
-    email: 'bilalyounes1999@gmail.com',
+    phone: '0956983371',
+    email: 'mhamd1fareed@gmail.com'
   },
   resume: {
     fileUrl:
