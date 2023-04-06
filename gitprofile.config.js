@@ -20,7 +20,7 @@ const config = {
       'https://drive.google.com/file/d/1zzwScdRCEC3zDKx2_k-N8OCkPRlKcvXU/view?usp=share_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'JavaScript',
+    'PHP',
     'React.js',
     'TypeScript',
     'Redux',
