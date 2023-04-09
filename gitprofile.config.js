@@ -24,6 +24,7 @@ const config = {
     'Laravel',
     'Restfull API',
     'MVC Design Pattern',
+    'SQL/MySQL',
     'Git/Github',
     'Postman',
     'C++',
