@@ -203,11 +203,11 @@ const GitProfile = ({ config }) => {
                         github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      {/* <ExternalProject
+                      <ExternalProject
                         loading={loading}
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
-                      /> */}
+                      />
                       <Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
